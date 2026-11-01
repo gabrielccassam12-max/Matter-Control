@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "mattercontrol",
+  "version": "${version}",
+  "name": "Matter Control",
+  "description": "Absorb the blocks of the ground to fill your matter gauge, then bend that matter into walls, spears, golems, quakes, cages and more.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.mattercontrol.MatterMod"],
+    "client": ["com.mattercontrol.client.MatterClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
